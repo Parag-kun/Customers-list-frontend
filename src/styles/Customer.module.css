@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.file {
+    display: none;
+    font-size: 12px;
+}
+
+.fileLabel {
+    padding: 10px 20px;
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.fileName {
+    color: gray;
+}
+
+.fileContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}

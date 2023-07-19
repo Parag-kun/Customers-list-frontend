@@ -1,0 +1,12 @@
+.card {
+    padding: 20px;
+    box-shadow: 0px 0px 4px gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.fields {
+    margin: 10px;
+    font-size: 18px;
+}

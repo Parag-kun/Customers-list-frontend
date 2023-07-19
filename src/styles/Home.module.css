@@ -1,0 +1,60 @@
+.container {
+    padding: 20px 100px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.searchContainer {
+    margin: 10px 40px;
+}
+
+.searchHeading {
+    text-align: center;
+}
+
+.searchItems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.searchInput {
+    padding: 6px;
+    margin-left: 6px;
+}
+
+.cardContainer {
+    padding: 20px 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.paginationButtons {
+    padding: 2px 8px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.citiesButton {
+    padding: 10px 20px;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}

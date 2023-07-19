@@ -1,0 +1,23 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: min(100%, 300px);
+    font-size: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
